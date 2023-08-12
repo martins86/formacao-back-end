@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "vscjava.vscode-java-debug",
+    "ms-azuretools.vscode-docker",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "redhat.java",
+    "vscjava.vscode-maven",
+    "vscjava.vscode-java-dependency",
+    "sonarsource.sonarlint-vscode",
+    "vmware.vscode-spring-boot",
+    "vscjava.vscode-spring-initializr",
+    "richie5um2.vscode-sort-json"
+  ]
+}
