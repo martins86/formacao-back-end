@@ -29,7 +29,7 @@
 
 br.com.escola.domain.aluno
 
-// Entidade: ex (nome)
+// Entidade: Classe com um identificador unico ex: aluno (cpf)
 
 public class Aluno {
     private Cpf cpf;
@@ -47,7 +47,7 @@ this.phones.add(new Phone(ddd, numberPhone));
 
 br.com.escola.domain.cpf
 
-// VO - Value Object
+// VO - Value Object: Classe sem identificador unitáro ou id
 
 public class Cpf {
     private String individualRegistration
