@@ -77,6 +77,7 @@
 				- Phone
 				- PasswordEncryptor
 			- Recommendation
+                - Recommendation
 		- Infrastructure (br.com.escola.infrastructure)
 			- Student
 				- RepositoryStudentWithJDBC
