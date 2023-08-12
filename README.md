@@ -18,7 +18,7 @@
 
 <br>
 
-### IDE - VsCode
+### IDE - VS Code
 
 <br>
 
