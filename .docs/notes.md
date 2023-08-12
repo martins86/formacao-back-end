@@ -1,32 +1,53 @@
 ## Clean Architecture
 
-(Enterprise Business Rules) - Camada central com as regras de negocio.
+### (Enterprise Business Rules) - Camada central com as regras de negocio.
+
+```sh
     - Entities
+```
+<br>
 
-(Application Business Rules) - Camada com as logicas que vai executar as regras de negocio.
+### (Application Business Rules) - Camada com as logicas que vai executar as regras de negocio.
+
+```sh
     - Use Cases
+```
+<br>
 
-(Interface Adapters) - Camada com os adaptadores que conversão com a camada externa.
+### (Interface Adapters) - Camada com os adaptadores que conversão com a camada externa.
+
+```sh
     - Controllers
     - Gateways
     - Presenters
+```
+<br>
 
-(Frameworks & Drivers) - Camada externa
+### (Frameworks & Drivers) - Camada externa
+
+```sh
     - DB
     - External Interfaces
     - Web
     - Devices
     - UI
+```
+<br>
 
-------------------------------
+### Criar Projeto Escola
 
-    Criar Projeto Escola
+```sh
     JAVA 11
     Maven 3
 
-    br.com.escola
-------------------------------
+    br.com
+    escola
+```
+<br>
 
+### Entidade/Dominio Aluno
+
+```sh
 br.com.escola.domain.aluno
 
 // Entidade: Classe com um identificador unico ex: aluno (cpf)
@@ -42,8 +63,12 @@ public void addPhone(String ddd, String numberPhone) {
 this.phones.add(new Phone(ddd, numberPhone));
 }
 }
+```
+<br>
 
-------------------------------
+### Entidade/Dominio CPF
+
+```sh
 
 br.com.escola.domain.cpf
 
@@ -63,7 +88,12 @@ public class Cpf {
     }
 }
 
-------------------------------
+```
+<br>
+
+### Entidade/Dominio Email
+
+```sh
 
 br.com.escola.domain.email
 
@@ -83,4 +113,5 @@ public class Email {
     }
 }
 
-------------------------------
+```
+<br>
